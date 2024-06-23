@@ -73,7 +73,7 @@ export default class Contents extends Component {
                                     <div className="card-body">
                                         <h5 className="card-title">{event.title ? event.title.slice(0,25):"Title not available"}...</h5>
                                         <p className="card-text">{event.description? event.description.slice(0,50):"description not available"}...</p>
-                                        <a href="#" className="btn btn-primary">Click to see more...</a>
+                                        <a href="#" className="btn btn-primary">Click here to see more</a>
                                     </div>
                                 </div>
                             </div>
